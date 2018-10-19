@@ -3,6 +3,8 @@ title: "Notes for Participants"
 author: "Keith Baggerly"
 date: "10/19/2018"
 output: 
+  md_document:
+    toc: true
   github_document:
     toc: true
   word_document:
