@@ -17,12 +17,12 @@ You’re getting this note because you’re a potential participant in the
 2018 FDA Short Course on Reproducible Research (RR), and I wanted to let
 you know
 
--   [what it’ll cover](What-We'll-Cover),  
--   [what you’ll need](What-You'll-Need) to get the most out of the
+-   [what it’ll cover](#what-well-cover),  
+-   [what you’ll need](#what-youll-need) to get the most out of the
     course, and  
--   [where to go](Where-to-Get-More-Details) on GitHub to get more info,
-    including links to slides and code as we get closer to the course
-    date.
+-   [where to go](#where-to-get-more-details) on GitHub to get more
+    info, including links to slides and code as we get closer to the
+    course date.
 
 One quick note about terminology. We distinguish between reproducibility
 and replicability. We say a finding is
