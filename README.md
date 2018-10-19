@@ -1,17 +1,36 @@
-FDA 2018 Reproducible Research Short Course
-================
-Keith Baggerly
-10/19/2018
+-   [Overview](#overview)
+-   [Goals and Syllabus](#goals-and-syllabus)
+    -   [Part 1 (1.5hr, general audience): *Why it’s
+        important*.](#part-1-1.5hr-general-audience-why-its-important.)
+    -   [Part 2 (4 hr, folks analyzing data): *Doing It Right -
+        Workflows*.](#part-2-4-hr-folks-analyzing-data-doing-it-right---workflows.)
+    -   [Part 3 (2 hr, folks using R): *Doing It Right - R
+        Packages*.](#part-3-2-hr-folks-using-r-doing-it-right---r-packages.)
+    -   [Part 4 (0.5hr, general audience): *Looking at
+        Replicability*.](#part-4-0.5hr-general-audience-looking-at-replicability.)
+-   [Software Required](#software-required)
+    -   [R and RStudio](#r-and-rstudio)
+    -   [R Packages](#r-packages)
+        -   [Windows and RTools](#windows-and-rtools)
+        -   [tinytex and PDF Output](#tinytex-and-pdf-output)
+        -   [Bonus: Git and GitHub](#bonus-git-and-github)
+-   [An Example Analysis](#an-example-analysis)
+-   [An Example Package](#an-example-package)
+-   [Further Resources](#further-resources)
+    -   [Places to Learn More](#places-to-learn-more)
+    -   [Notes for Participants](#notes-for-participants)
 
-# Overview
+Overview
+========
 
 Welcome to the FDA’s 2018 Short Course on Reproducible Research (RR)
-Using R and RStudio\!
+Using R and RStudio!
 
 This day-long course will be presented at the FDA on Fri, Nov 16, 2018
 by [Keith Baggerly](mailto:kabagg@gmail.com).
 
-# Goals and Syllabus
+Goals and Syllabus
+==================
 
 The goal of this course is to introduce you to the issues associated
 with making research **reproducible**, in the sense that someone else,
@@ -27,7 +46,8 @@ much easier.
 The course is split into 4 parts, which vary in length and the level of
 background required.
 
-## Part 1 (1.5hr, general audience): *Why it’s important*.
+Part 1 (1.5hr, general audience): *Why it’s important*.
+-------------------------------------------------------
 
 We use in-depth analyses of a few problematic case studies to show how
 basic mistakes can and have negatively impacted patient care. We’ll
@@ -36,29 +56,31 @@ happened in these cases, and discuss the breadth of the problem.
 
 LINK TO SLIDES WILL BE ADDED
 
-## Part 2 (4 hr, folks analyzing data): *Doing It Right - Workflows*.
+Part 2 (4 hr, folks analyzing data): *Doing It Right - Workflows*.
+------------------------------------------------------------------
 
 We’ll introduce ways of organizing data, code, and text in ways that
 will make it easier for others to get the same results you got, and
 tools available today which make implementing these practices easier.
-We’ll do some of this live with toy examples, and examine more
-realistic examples with prebuilt analyses. My own examples will use R
-and RStudio, but the general concepts presented here can be adapted to
-other programming environments. A short topic list includes
+We’ll do some of this live with toy examples, and examine more realistic
+examples with prebuilt analyses. My own examples will use R and RStudio,
+but the general concepts presented here can be adapted to other
+programming environments. A short topic list includes
 
-  - literate programming with markdown/markdown
-  - working on the web with git/github
-  - README files
-  - folder structures
-  - projects, encapsulation, and here
-  - gathering raw data
-  - make, appoximations, and file naming
-  - report structure
-  - sanity checks
+-   literate programming with markdown/markdown
+-   working on the web with git/github
+-   README files
+-   folder structures
+-   projects, encapsulation, and here
+-   gathering raw data
+-   make, appoximations, and file naming
+-   report structure
+-   sanity checks
 
 LINK TO SLIDES WILL BE ADDED
 
-## Part 3 (2 hr, folks using R): *Doing It Right - R Packages*.
+Part 3 (2 hr, folks using R): *Doing It Right - R Packages*.
+------------------------------------------------------------
 
 For folks who are doing analyses in R, R packages are everywhere. Recent
 packages, specifically `devtools` and `roxygen2`, have made it much
@@ -67,16 +89,17 @@ in 15 minutes or so (with some practice). We’re going to show you how,
 and then use what we’ve learned to share scripts that make organization
 easier. We’ll discuss
 
-  - the structure of R packages
-  - DESCRIPTIONs, LICENSEs, and documentation
-  - vignettes
-  - storing data in packages
-  - storing templates in packages
-  - storing analyses in packages
+-   the structure of R packages
+-   DESCRIPTIONs, LICENSEs, and documentation
+-   vignettes
+-   storing data in packages
+-   storing templates in packages
+-   storing analyses in packages
 
 LINK TO SLIDES WILL BE ADDED
 
-## Part 4 (0.5hr, general audience): *Looking at Replicability*.
+Part 4 (0.5hr, general audience): *Looking at Replicability*.
+-------------------------------------------------------------
 
 Even when findings are reproducible, they may not be replicable. We
 review some common problems leading to poor replicability, and discuss
@@ -85,7 +108,8 @@ of the bigger ones.
 
 LINK TO SLIDES WILL BE ADDED
 
-# Software Required
+Software Required
+=================
 
 Parts 2 and 3 of the course will involve a good deal of live demo and
 opportunities to try it yourself, so you’ll want to have a laptop you
@@ -93,12 +117,13 @@ can create and edit files on with recent versions of the relevant
 software (all free) preinstalled. Specifically, you’ll want R, RStudio,
 and a bunch of R packages.
 
-## R and RStudio
+R and RStudio
+-------------
 
 On my MacBook Pro laptop (OS X 10.13.6) I’m currently running
 
-  - R version 3.5.1 (2018-07-02) and
-  - RStudio version 1.2.1047
+-   R version 3.5.1 (2018-07-02) and
+-   RStudio version 1.2.1047
 
 R is available from [CRAN](https://cran.r-project.org/). A list of CRAN
 mirrors is available from [the R Project](https://www.r-project.org/).
@@ -116,29 +141,30 @@ Second, it includes better support for Python via the `reticulate`
 package, and the capability to produce more types of output files,
 including PowerPoint.
 
-## R Packages
+R Packages
+----------
 
 The main R packages I’ll use (in alphabetic order, with my version
 numbers shown) are:
 
-  - devtools 1.13.6
-  - downloader 0.4
-  - here 0.1
-  - knitr 1.20
-  - readr 1.1.1
-  - rmarkdown 1.10
-  - roxygen2 6.1.0
+-   devtools 1.13.6
+-   downloader 0.4
+-   here 0.1
+-   knitr 1.20
+-   readr 1.1.1
+-   rmarkdown 1.10
+-   roxygen2 6.1.0
 
 I may use other packages from the tidyverse without extensive
 discussion:
 
-  - tidyverse 1.2.1
+-   tidyverse 1.2.1
 
 ### Windows and RTools
 
 For those of you running Windows machines, you’ll also need to install
 
-  - [Rtools](https://cran.r-project.org/bin/windows/Rtools/)
+-   [Rtools](https://cran.r-project.org/bin/windows/Rtools/)
 
 for Part 3 of the course, in order to get new packages you create to
 compile properly. Jeff Leek gives a slightly more expansive description
@@ -168,7 +194,8 @@ time constraints, but you may want to install git on your machine and
 set up an account on github if you find the illustrated usages
 interesting.
 
-# An Example Analysis
+An Example Analysis
+===================
 
 While we’ll be working through some parts of a reproducible analysis
 setup “live”, but we won’t be able to take our live analysis through all
@@ -177,7 +204,8 @@ we’re including a link here to a more realistic analysis.
 
 LINK TO BE ADDED HERE
 
-# An Example Package
+An Example Package
+==================
 
 We’ll also be assembling a few working R packages “live”, but, as with
 the analyses mentioned above, we won’t be able to flesh our live package
@@ -186,14 +214,17 @@ more realistic (but still basic) package.
 
 LINK TO BE ADDED HERE
 
-# Further Resources
+Further Resources
+=================
 
-## Places to Learn More
+Places to Learn More
+--------------------
 
 We can’t cover everything, so here are [some places to learn
 more](Resources/resources.md).
 
-## Notes for Participants
+Notes for Participants
+----------------------
 
 I’m sending some of the above around about a month before the course
 itself to give people a heads-up. These notes are [online

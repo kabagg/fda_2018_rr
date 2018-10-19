@@ -3,6 +3,8 @@ title: "FDA 2018 Reproducible Research Short Course"
 author: "Keith Baggerly"
 date: "10/19/2018"
 output: 
+  md_document:
+    toc: true
   github_document:
     toc: true
   html_document:
