@@ -213,10 +213,10 @@ This analysis surveys 4 datasets from the web:
     DTP](https://wiki.nci.nih.gov/download/attachments/155845004/WEB_DATA_NOVARTIS_ALL.zip?version=1&modificationDate=1378406329000&api=v2&download=true),
     26.2 Mb
 -   [GEO SOFT Dataset
-    GSE349](ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSEnnn/GSE349/soft/),
+    GSE349](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE349),
     4.7 Mb
 -   [GEO SOFT Dataset
-    GSE350](ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSEnnn/GSE350/soft/),
+    GSE350](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE350),
     4.4 Mb
 
 An Example Package
