@@ -54,7 +54,7 @@ basic mistakes can and have negatively impacted patient care. We’ll
 apply forensic bioinformatics to reverse engineer what must have
 happened in these cases, and discuss the breadth of the problem.
 
-LINK TO SLIDES WILL BE ADDED
+[Part 1 Slides](Slides/fda_rr_part_1.pdf)
 
 Part 2 (4 hr, folks analyzing data): *Doing It Right - Workflows*.
 ------------------------------------------------------------------
@@ -96,7 +96,7 @@ easier. We’ll discuss
 -   storing templates in packages
 -   storing analyses in packages
 
-LINK TO SLIDES WILL BE ADDED
+[Part 3 Slides](Slides/fda_rr_part_3.pdf)
 
 Part 4 (0.5hr, general audience): *Looking at Replicability*.
 -------------------------------------------------------------
@@ -106,7 +106,7 @@ review some common problems leading to poor replicability, and discuss
 various sanity checks we can try putting in place to let us catch some
 of the bigger ones.
 
-LINK TO SLIDES WILL BE ADDED
+[Part 4 Slides](Slides/fda_rr_part_4.pdf)
 
 Software Required
 =================
@@ -202,7 +202,22 @@ setup “live”, but we won’t be able to take our live analysis through all
 the steps we might encounter with a real analysis. To balance this,
 we’re including a link here to a more realistic analysis.
 
-LINK TO BE ADDED HERE
+[Example Analysis on GitHub](https://github.com/kabagg/example_analysis)
+
+This analysis surveys 4 datasets from the web:
+
+-   [Potti et al data on
+    figshare](https://ndownloader.figshare.com/files/10615624?private_link=66603862d770b4c73146),
+    5.1 Mb
+-   [NCI60 data from NCI
+    DTP](https://wiki.nci.nih.gov/download/attachments/155845004/WEB_DATA_NOVARTIS_ALL.zip?version=1&modificationDate=1378406329000&api=v2&download=true),
+    26.2 Mb
+-   [GEO SOFT Dataset
+    GSE349](ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSEnnn/GSE349/soft/),
+    4.7 Mb
+-   [GEO SOFT Dataset
+    GSE350](ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSEnnn/GSE350/soft/),
+    4.4 Mb
 
 An Example Package
 ==================
