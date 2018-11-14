@@ -227,7 +227,7 @@ the analyses mentioned above, we won’t be able to flesh our live package
 out to any great extent. To balance this, we’re including a link to a
 more realistic (but still basic) package.
 
-LINK TO BE ADDED HERE
+[Example Package on GitHub](https://github.com/kabagg/examplePackage)
 
 Further Resources
 =================
