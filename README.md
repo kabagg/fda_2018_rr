@@ -77,7 +77,7 @@ programming environments. A short topic list includes
 -   report structure
 -   sanity checks
 
-LINK TO SLIDES WILL BE ADDED
+[Part 2 Slides](Slides/fda_rr_part_2.pdf)
 
 Part 3 (2 hr, folks using R): *Doing It Right - R Packages*.
 ------------------------------------------------------------
